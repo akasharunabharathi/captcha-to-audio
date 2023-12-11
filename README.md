@@ -4,16 +4,16 @@ An application that is able to decipher text-based CAPTCHA on websites, and make
 
 ### Project Organization:
 
-(/data/samples)[/data/samples] contains our dataset.
-(captcha2audio.ipynb)[captcha2audio.ipynb] contains our entire project, divided into different sections.
+[/data/samples](/data/samples) contains our dataset.
+[captcha2audio.ipynb](captcha2audio.ipynb) contains our entire project, divided into different sections.
 
 ### How to run
 
-(captcha2audio.ipynb)[captcha2audio.ipynb] contains all the code the user needs to run. We suggest running all cells except the cell which sharpens all images in our dataset.
+[captcha2audio.ipynb](captcha2audio.ipynb) contains all the code the user needs to run. We suggest running all cells except the cell which sharpens all images in our dataset.
 
 The neural net only needs to be trained once. After running through the entire file, you only need to run the last cell (Command Line Interface) every time you want to make a prediction.
 
-The CAPTCHA audio output the user should listen to is written to (captchaAudioFinal.wav)[captchaAudioFinal.wav] by default.
+The CAPTCHA audio output the user should listen to is written to [captchaAudioFinal.wav](captchaAudioFinal.wav) by default.
 
 ### Motivation and Impact
 
